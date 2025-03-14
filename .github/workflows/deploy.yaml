@@ -18,7 +18,7 @@ jobs:
       - name: Checkout Private Repo
         uses: actions/checkout@v4
         with:
-          repository: mlaskowski7/private-repo
+          repository: mlaskowski7/testNextjsDepl
           token: ${{ secrets.PRIVATE_REPO_PAT }}
           path: testNextjsDepl
 
